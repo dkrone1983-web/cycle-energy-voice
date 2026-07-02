@@ -1,0 +1,9 @@
+This is a placeholder. The actual gradle-wrapper.jar needs to be downloaded from: https://gradle.org/gradle-download/
+
+WICHTIG: Zum Kompilieren brauchst du die echte JAR-Datei.
+GitHub Actions lädt sie automatisch herunter, du brauchst dich also nicht drum zu kümmern!
+
+Falls du lokal bauen möchtest, lade folgende Datei herunter:
+https://services.gradle.org/distributions/gradle-8.1-bin.zip
+
+Entpacke es in dein Projekt.
