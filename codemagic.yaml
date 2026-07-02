@@ -3,8 +3,8 @@ workflows:
     name: Android Build
     max_build_duration: 30
     environment:
-      android_sdk: default
-      java: default
+      java: 17
+      ndk: 23.1.7779620
     triggering:
       events:
         - push
