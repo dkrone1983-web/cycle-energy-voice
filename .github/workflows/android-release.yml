@@ -1,9 +1,7 @@
-name: Build Release APK
+name: Build APK
 
 on:
   push:
-    branches: [ main, develop, master ]
-  pull_request:
     branches: [ main, develop, master ]
   workflow_dispatch:
 
@@ -19,36 +17,17 @@ jobs:
       uses: actions/setup-java@v4
       with:
         java-version: '17'
-        distribution: 'temurin'
+        distribution: 'adopt'
         cache: gradle
-
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Build with Gradle
-      run: |
-        export JAVA_HOME=${{ steps.setup-java.outputs.path }}
-        export PATH=$JAVA_HOME/bin:$PATH
-        java -version
-        ./gradlew clean build assembleDebug --no-daemon
+    - name: Build Debug APK
+      run: ./gradlew assembleDebug -x lint --no-daemon
 
     - name: Upload Debug APK
       uses: actions/upload-artifact@v4
-      if: success()
       with:
-        name: debug-apk
+        name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
-        retention-days: 7
-
-    - name: Upload Build Logs on Failure
-      uses: actions/upload-artifact@v4
-      if: failure()
-      with:
-        name: build-logs
-        path: |
-          build/
-          app/build/
-        retention-days: 3
