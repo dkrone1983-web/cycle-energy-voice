@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cycle Energy Voice</string>
+    <string name="app_description">Tracking dein Energielevel per Spracheneingabe im Zyklus</string>
+
+    <!-- Screens -->
+    <string name="screen_onboarding">Einrichtung</string>
+    <string name="screen_home">Startseite</string>
+    <string name="screen_voice_capture">Spracheingang</string>
+    <string name="screen_confirm">Bestätigung</string>
+    <string name="screen_manual_entry">Manuelle Eingabe</string>
+    <string name="screen_history">Verlauf</string>
+    <string name="screen_insights">Einsichten</string>
+    <string name="screen_settings">Einstellungen</string>
+
+    <!-- Common -->
+    <string name="back">Zurück</string>
+    <string name="next">Weiter</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="close">Schließen</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Willkommen zu Cycle Energy Voice</string>
+    <string name="onboarding_description">Lass uns deine Zyklusinfos einrichten</string>
+    <string name="cycle_length">Zyklislänge</string>
+    <string name="menstruation_length">Menstruationsdauer</string>
+    <string name="last_menstruation_date">Letzter Menstruationsbeginn</string>
+    <string name="select_date">Datum auswählen</string>
+
+    <!-- Home -->
+    <string name="your_energy_level">Dein Energielevel</string>
+    <string name="tap_mic_description">Tippe das Mikrofon um zu sprechen</string>
+    <string name="recently_tracked">Zuletzt erfasst</string>
+
+    <!-- Voice Capture -->
+    <string name="speak_energy_level">Sprich dein Energielevel</string>
+    <string name="listening">Höre zu…</string>
+    <string name="ready_to_speak">Bereit</string>
+    <string name="recognized">Erkannt:</string>
+    <string name="try_again">Erneut versuchen</string>
+
+    <!-- Energy & Status -->
+    <string name="energy_level">Energielevel</string>
+    <string name="stress_level">Stresslevel</string>
+    <string name="cycle_phase">Zyklusphase</string>
+    <string name="time_of_day">Tageszeit</string>
+    <string name="mood">Stimmung</string>
+    <string name="symptoms">Symptome</string>
+
+    <!-- Settings -->
+    <string name="export_data">Daten exportieren</string>
+    <string name="export_csv">Als CSV exportieren</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="delete_all_data">Alle Daten löschen</string>
+</resources>

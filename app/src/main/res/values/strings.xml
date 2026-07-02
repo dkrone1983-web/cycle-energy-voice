@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cycle Energy Voice</string>
+    <string name="app_description">Tracking dein Energielevel per Spracheneingabe im Zyklus</string>
+
+    <!-- Screens -->
+    <string name="screen_onboarding">Onboarding</string>
+    <string name="screen_home">Home</string>
+    <string name="screen_voice_capture">Voice Capture</string>
+    <string name="screen_confirm">Bestätigung</string>
+    <string name="screen_manual_entry">Manuelle Eingabe</string>
+    <string name="screen_history">Verlauf</string>
+    <string name="screen_insights">Einsichten</string>
+    <string name="screen_settings">Einstellungen</string>
+
+    <!-- Common -->
+    <string name="back">Zurück</string>
+    <string name="next">Weiter</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="close">Schließen</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Willkommen zu Cycle Energy Voice</string>
+    <string name="onboarding_description">Lass uns deine Zyklusinfos einrichten, damit wir deine Energielevel besser verstehen können.</string>
+    <string name="cycle_length">Zyklislänge</string>
+    <string name="menstruation_length">Menstruationsdauer</string>
+    <string name="last_menstruation_date">Letzter Menstruationsbeginn</string>
+    <string name="select_date">Datum auswählen</string>
+
+    <!-- Home -->
+    <string name="your_energy_level">Dein Energielevel</string>
+    <string name="tap_mic_description">Tippe das Mikrofon um dein Energielevel zu sagen</string>
+    <string name="recently_tracked">Zuletzt erfasst</string>
+
+    <!-- Voice Capture -->
+    <string name="speak_energy_level">Sprich dein Energielevel</string>
+    <string name="listening">Höre zu…</string>
+    <string name="ready_to_speak">Bereit zum Sprechen</string>
+    <string name="recognized">Erkannt:</string>
+    <string name="try_again">Erneut versuchen</string>
+
+    <!-- Energy & Status -->
+    <string name="energy_level">Energielevel</string>
+    <string name="stress_level">Stresslevel</string>
+    <string name="cycle_phase">Zyklusphase</string>
+    <string name="time_of_day">Tageszeit</string>
+    <string name="mood">Stimmung</string>
+    <string name="symptoms">Symptome</string>
+
+    <!-- Cycle Phases -->
+    <string name="menstruation">Menstruation</string>
+    <string name="follicular">Follikulär</string>
+    <string name="ovulation">Eisprung</string>
+    <string name="luteal">Luteal</string>
+
+    <!-- Time of Day -->
+    <string name="morning">Morgens</string>
+    <string name="afternoon">Nachmittags</string>
+    <string name="evening">Abends</string>
+    <string name="night">Nachts</string>
+
+    <!-- Insights -->
+    <string name="avg_energy_by_phase">Durchschn. Energie nach Zyklusphase</string>
+    <string name="avg_energy_by_time">Durchschn. Energie nach Tageszeit</string>
+    <string name="heatmap">Energieheatmap (Phase × Tageszeit)</string>
+
+    <!-- Settings -->
+    <string name="export_data">Daten exportieren</string>
+    <string name="export_description">Exportiere deine Check-in-Daten als CSV-Datei für deine Unterlagen.</string>
+    <string name="export_csv">CSV exportieren</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="privacy_notice">Diese App speichert alle Daten lokal auf deinem Gerät. Es werden keine Daten mit uns oder Drittanbieter geteilt. Deine Zykluseinträge bleiben privat.</string>
+    <string name="app_info">App-Information</string>
+    <string name="version">Version</string>
+    <string name="delete_all_data">Alle Daten löschen</string>
+    <string name="delete_all_confirmation">Dies wird alle deine Check-in-Daten und Einstellungen löschen. Diese Aktion kann nicht rückgängig gemacht werden.</string>
+
+    <!-- Errors -->
+    <string name="error">Fehler</string>
+    <string name="audio_error">Audiofehler</string>
+    <string name="network_error">Netzwerkfehler</string>
+    <string name="no_match">Keine Treffer</string>
+    <string name="speech_timeout">Timeout bei Spracherkennung</string>
+</resources>

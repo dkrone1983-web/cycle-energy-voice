@@ -1,0 +1,145 @@
+╔════════════════════════════════════════════════════════════════════╗
+║       CYCLE ENERGY VOICE - GITHUB ACTIONS APK BUILD SETUP           ║
+║                      Quick Start (TL;DR)                            ║
+╚════════════════════════════════════════════════════════════════════╝
+
+⏱️  GESAMTZEIT: ~30-45 Minuten (beim ersten Mal)
+
+═══════════════════════════════════════════════════════════════════════
+
+📋 SCHRITT 1: GitHub Account + Repository (5 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Gehe zu: https://github.com
+2. Klick "Sign up"
+3. Email, Passwort, Username eingeben
+4. Email bestätigen
+5. Klick "Your repositories"
+6. Klick "New"
+7. Name: cycle-energy-voice
+   Visibility: PUBLIC (wichtig!)
+   Klick "Create repository"
+
+✅ Du hast jetzt ein leeres Repo!
+
+═══════════════════════════════════════════════════════════════════════
+
+📁 SCHRITT 2: Dateien hochladen (5 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. GitHub Repo öffnen
+2. Klick "Add files" → "Upload files"
+3. Öffne File Explorer: C:\Users\dkrone\Claude\Projects\Tracker
+4. Markiere ALLE Dateien: Ctrl+A
+5. Drag & Drop zu GitHub
+6. Warte bis alle hochgeladen sind
+7. Commit message: "Initial commit: Cycle Energy Voice MVP"
+8. Klick "Commit changes"
+
+✅ Alle Dateien sind jetzt auf GitHub!
+
+═══════════════════════════════════════════════════════════════════════
+
+⚙️  SCHRITT 3: GitHub Actions starten (1 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Gehe zu Tab "Actions"
+2. Du siehst "Build Release APK" Workflow
+3. Klick "Run workflow" Button (rechts oben)
+4. Bestätige noch einmal
+5. BUILD STARTET! 🚀
+
+═══════════════════════════════════════════════════════════════════════
+
+⏳ SCHRITT 4: Warten & Progress ansehen (10-15 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Gehe zu "Actions" Tab
+2. Klick auf den Workflow-Eintrag
+3. Warte bis grüner Checkmark ✅ erscheint
+   (Yellow = läuft noch, Red = Fehler)
+
+Das ist der längste Schritt. Einfach abwarten!
+
+═══════════════════════════════════════════════════════════════════════
+
+📥 SCHRITT 5: APK herunterladen (1 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Nach erfolgreichem Build (grüner Check):
+
+1. Scroll zu "Artifacts" (ganz runter)
+2. Klick "debug-apk" zum Downloaden
+3. ZIP extrahieren
+4. Du hast jetzt: app-debug.apk ✅
+
+═══════════════════════════════════════════════════════════════════════
+
+📱 SCHRITT 6: Auf Handy installieren (5 min)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Handy vorbereiten (einmalig):
+- Einstellungen → Sicherheit → Unbekannte Quellen → ON
+
+APK installieren:
+1. app-debug.apk auf Handy kopieren (USB/Email/Drive)
+2. File Manager öffnen
+3. APK antippen
+4. "Installieren" klicken
+5. Warten & "Öffnen" klicken
+
+✅ FERTIG! App ist installiert! 🎉
+
+═══════════════════════════════════════════════════════════════════════
+
+🧪 TESTEN:
+━━━━━━━━━━
+
+1. App starten
+2. Onboarding durchlaufen (Zyklusinfos eingeben)
+3. Mikrofon-Button antippen
+4. Sprechen: "Energie 7, abends, müde"
+5. "Weiter" klicken
+6. "Speichern" klicken
+7. "Erlauben" für Mikrofon-Berechtigung
+8. Fertig! ✅
+
+═══════════════════════════════════════════════════════════════════════
+
+🆘 FEHLER?
+━━━━━━━━━━
+
+- Build schlägt fehl? → Warte 10 sec, klick "Run workflow" nochmal
+- APK nicht angezeigt? → Check ob Build grüner Check hat
+- App startet nicht? → Kontrolliere AndroidManifest.xml hochgeladen
+- Mikro funktioniert nicht? → Handy-Einstellungen → App-Berechtigungen
+
+═══════════════════════════════════════════════════════════════════════
+
+📖 DETAILLIERTE ANLEITUNG:
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Lese: GITHUB_ANLEITUNG.md
+(im selben Tracker Folder wie diese Datei)
+
+═══════════════════════════════════════════════════════════════════════
+
+🚀 NÄCHSTE UPDATES:
+━━━━━━━━━━━━━━━━━━
+
+Sobald alles läuft:
+1. Code ändern (lokal)
+2. GitHub Upload: Add files → Upload → Commit
+3. GitHub Actions baut automatisch neue APK
+4. Download & installiere auf Handy
+5. Teste die Änderungen
+
+═══════════════════════════════════════════════════════════════════════
+
+💡 DAS WAR'S!
+
+Du hast jetzt eine vollautomatisierte APK-Pipeline! 🎉
+
+Viel Erfolg mit deiner App! 🚀
+
+═══════════════════════════════════════════════════════════════════════
